@@ -8,14 +8,12 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.shoppinglist.ui.theme.ShoppingListTheme
 import com.example.shoppinglist.component.Title
 import com.example.shoppinglist.component.ItemInput
 import com.example.shoppinglist.component.SearchInput
 import com.example.shoppinglist.component.ShoppingList
-
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
